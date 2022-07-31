@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/navBar.module.css">
+    <link rel="stylesheet" href="./styles/section.module.css">
+    <link rel="stylesheet" href="./styles/coffe.module.css">
+    <title>teste-de-menu</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Desktop">
+                <div class="Logo">
+                    <img src="./img/logo-desktop.svg" alt="Logo">
+                </div>
+                <div class="">
+                    <a href="#" class="Menus">Home</a>
+                    <a href="#" class="Menus">Menu</a>
+                    <a href="#" class="Menus">Recompensas</a>
+                    <a href="#" class="Menus">GifgCards</a>
+                    <a href="#" class="Menus">Lojas</a>
+                </div>
+                <div class="botao">
+                    <a href="#">PEGAR MEU CAFÉ</a>
+                </div>
+            </div>
+            <div class="Mobile">
+                <div class="Logo-Mobile">
+                    <img src="./img/logo-mobile.svg" alt="Logo">
+                </div>
+                <div id="myNav" class="overlay">
+                    <img src="./img/menu-buguer-close.svg" class="closebtn" onclick="closeNav()">
+                    
+                    <div class="overlay-content">
+                        <a href="#">Home</a>
+                        <a href="#">Menu</a>
+                        <a href="#">Recompensas</a>
+                        <a href="#">Gift Cards</a>
+                        <a href="#">Lojas</a>
+                    </div>
+                
+                </div>
+            
+                <div class="Menu-open">
+                    <img src="./img/menu-buguer-open.svg" alt="" class="nav-button" onclick="openNav()">
+                </div>
+                <hr>
+                
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="desktop-section">
+            <h1 class="titulo-one">Great Coffee</h1>
+            <h2 class="titulo-two">< Great Code /></h2>
+        </div>
+        <div class="mobile-section">
+            <h1>O café que fará seu código decolar para o próximo nível.</h1>
+            <div class="botao-one">
+                <a href="#">Pegar meu café</a>
+            </div>
+        </div>
+    </section>
+    <article>
+        <div class="coffe">
+            <img src="./img/rocket-coffee.png" alt="cafe">
+        </div>
+    </article>
+    <div class="bluer-desktop">
+        <img src="./img/blur-1.png" alt="" class="bluer-one">
+    </div>
+    <div class="bluer-mobile">
+        <img src="./img/blur-mobile.png" alt="" class="bluer-two">
+    </div>
+</body>
+</html>

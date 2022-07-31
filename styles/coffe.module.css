@@ -1,0 +1,54 @@
+.coffe{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    
+}
+
+.bluer-one{
+    position: relative;
+    margin-top: -600px;
+}
+
+.bluer-two{
+    display: none;
+}
+
+@media screen and (max-width: 740px ){
+    .bluer-one{
+        display: none;
+    }
+    .bluer-two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 321px;
+        height: 321px;
+        left: 68px;
+        top: 706px;
+        background: #996DFF;
+        filter: blur(400px);
+    }
+    .coffe{
+        position: relative;
+        width: 428px;
+        height: 333px;
+        left: 20%;
+        top: 687px;
+    }
+}
+@media screen and (max-width: 652px){
+    .coffe{
+        position: relative;
+        width: 380px;
+        height: 333px;
+        align-items: center;
+       
+        
+    }
+    
+    
+}
